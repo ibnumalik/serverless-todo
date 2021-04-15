@@ -1,0 +1,38 @@
+{
+  "name": "serverless-todo",
+  "version": "1.0.0",
+  "description": "Todo rest api using serverless framework, aws lambda and dynamodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js,.ts",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibnumalik/serverless-todo.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "lambda",
+    "todo"
+  ],
+  "author": "Shaiful Aiman bin Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibnumalik/serverless-todo/issues"
+  },
+  "homepage": "https://github.com/ibnumalik/serverless-todo#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^14.14.39",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "typescript": "^4.2.4"
+  }
+}
